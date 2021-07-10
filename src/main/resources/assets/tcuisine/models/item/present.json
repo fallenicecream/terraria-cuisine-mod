@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tcuisine:item/present"
+  },
+  "display": {
+    "gui": {
+      "scale": [1.25, 1.25, 1],
+      "translation": [0, 2.5, 0]
+    },
+    "thirdperson_righthand": {
+      "scale": [0.75, 0.75, 0.5],
+      "translation": [0, 4.75, 1]
+    },
+    "ground": {
+      "scale": [0.5, 0.5, 0.5],
+      "translation": [0, 2, 0]
+    }
+  }
+}

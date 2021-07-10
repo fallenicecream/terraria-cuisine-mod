@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "tcuisine",
+  "version": "${version}",
+
+  "name": "Terraria Cuisine",
+  "description": "This mod implements food items from the game Terraria",
+  "authors": [
+    "fallenicecream"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/tcuisine/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fallenicecream.tcuisine.Main"
+    ]
+  },
+  "mixins": [
+    ""
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
